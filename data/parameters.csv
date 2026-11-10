@@ -1,0 +1,85 @@
+scenario,matrix,origin,destination,value
+A,A,Comprometido,Comprometido,0.82
+A,A,Comprometido,En riesgo,0.15
+A,A,Comprometido,Inactivo,0.03
+A,A,En riesgo,Comprometido,0.22
+A,A,En riesgo,En riesgo,0.63
+A,A,En riesgo,Inactivo,0.15
+A,A,Inactivo,Comprometido,0.04
+A,A,Inactivo,En riesgo,0.11
+A,A,Inactivo,Inactivo,0.85
+A,B,Comprometido,Alta,0.8
+A,B,Comprometido,Media,0.17
+A,B,Comprometido,Baja,0.03
+A,B,En riesgo,Alta,0.1
+A,B,En riesgo,Media,0.5
+A,B,En riesgo,Baja,0.4
+A,B,Inactivo,Alta,0.02
+A,B,Inactivo,Media,0.1
+A,B,Inactivo,Baja,0.88
+A,pi,inicio,Comprometido,0.7
+A,pi,inicio,En riesgo,0.2
+A,pi,inicio,Inactivo,0.1
+B,A,Comprometido,Comprometido,0.82
+B,A,Comprometido,En riesgo,0.15
+B,A,Comprometido,Inactivo,0.03
+B,A,En riesgo,Comprometido,0.22
+B,A,En riesgo,En riesgo,0.63
+B,A,En riesgo,Inactivo,0.15
+B,A,Inactivo,Comprometido,0.04
+B,A,Inactivo,En riesgo,0.11
+B,A,Inactivo,Inactivo,0.85
+B,B,Comprometido,Alta,0.66
+B,B,Comprometido,Media,0.23299999999999998
+B,B,Comprometido,Baja,0.107
+B,B,En riesgo,Alta,0.1875
+B,B,En riesgo,Media,0.4475
+B,B,En riesgo,Baja,0.365
+B,B,Inactivo,Alta,0.118
+B,B,Inactivo,Media,0.1875
+B,B,Inactivo,Baja,0.6945
+B,pi,inicio,Comprometido,0.7
+B,pi,inicio,En riesgo,0.2
+B,pi,inicio,Inactivo,0.1
+C,A,Comprometido,Comprometido,0.86
+C,A,Comprometido,En riesgo,0.11
+C,A,Comprometido,Inactivo,0.03
+C,A,En riesgo,Comprometido,0.4
+C,A,En riesgo,En riesgo,0.5
+C,A,En riesgo,Inactivo,0.1
+C,A,Inactivo,Comprometido,0.08
+C,A,Inactivo,En riesgo,0.17
+C,A,Inactivo,Inactivo,0.75
+C,B,Comprometido,Alta,0.8
+C,B,Comprometido,Media,0.17
+C,B,Comprometido,Baja,0.03
+C,B,En riesgo,Alta,0.1
+C,B,En riesgo,Media,0.5
+C,B,En riesgo,Baja,0.4
+C,B,Inactivo,Alta,0.02
+C,B,Inactivo,Media,0.1
+C,B,Inactivo,Baja,0.88
+C,pi,inicio,Comprometido,0.7
+C,pi,inicio,En riesgo,0.2
+C,pi,inicio,Inactivo,0.1
+D,A,Comprometido,Comprometido,0.82
+D,A,Comprometido,En riesgo,0.15
+D,A,Comprometido,Inactivo,0.03
+D,A,En riesgo,Comprometido,0.22
+D,A,En riesgo,En riesgo,0.63
+D,A,En riesgo,Inactivo,0.15
+D,A,Inactivo,Comprometido,0.04
+D,A,Inactivo,En riesgo,0.11
+D,A,Inactivo,Inactivo,0.85
+D,B,Comprometido,Alta,0.8
+D,B,Comprometido,Media,0.17
+D,B,Comprometido,Baja,0.03
+D,B,En riesgo,Alta,0.1
+D,B,En riesgo,Media,0.5
+D,B,En riesgo,Baja,0.4
+D,B,Inactivo,Alta,0.02
+D,B,Inactivo,Media,0.1
+D,B,Inactivo,Baja,0.88
+D,pi,inicio,Comprometido,0.45
+D,pi,inicio,En riesgo,0.4
+D,pi,inicio,Inactivo,0.15

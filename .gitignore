@@ -1,0 +1,26 @@
+# Entornos y temporales
+.venv/
+.vendor/
+.tmp/
+.dsh-office-*/
+__pycache__/
+*.py[cod]
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Documentos temporales de Word
+~$*.docx
+~$*.pptx
+
+# Configuracion local de GitHub CLI (opcional)
+.gh/
+
+# Material de apoyo local: no forma parte de la entrega publica
+docs/Guion_video_pitch.md
+docs/Presentacion_pitch.*
+docs/Checklist_entrega.md
+docs/literatura/
+build_pptx.py

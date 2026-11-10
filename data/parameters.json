@@ -1,0 +1,195 @@
+{
+  "states": [
+    "Comprometido",
+    "En riesgo",
+    "Inactivo"
+  ],
+  "symbols": [
+    "Alta",
+    "Media",
+    "Baja"
+  ],
+  "risk_state": 1,
+  "scenarios": [
+    {
+      "scenario": "A",
+      "name": "Base",
+      "description": "Cohorte de referencia con persistencia moderada del riesgo y emisiones separables.",
+      "changes": "Referencia",
+      "A": [
+        [
+          0.82,
+          0.15,
+          0.03
+        ],
+        [
+          0.22,
+          0.63,
+          0.15
+        ],
+        [
+          0.04,
+          0.11,
+          0.85
+        ]
+      ],
+      "B": [
+        [
+          0.8,
+          0.17,
+          0.03
+        ],
+        [
+          0.1,
+          0.5,
+          0.4
+        ],
+        [
+          0.02,
+          0.1,
+          0.88
+        ]
+      ],
+      "pi": [
+        0.7,
+        0.2,
+        0.1
+      ]
+    },
+    {
+      "scenario": "B",
+      "name": "Señal débil",
+      "description": "Misma dinámica que A, pero con emisiones más confundibles: la actividad observada discrimina peor los estados ocultos.",
+      "changes": "B (separabilidad 0.65)",
+      "A": [
+        [
+          0.82,
+          0.15,
+          0.03
+        ],
+        [
+          0.22,
+          0.63,
+          0.15
+        ],
+        [
+          0.04,
+          0.11,
+          0.85
+        ]
+      ],
+      "B": [
+        [
+          0.66,
+          0.23299999999999998,
+          0.107
+        ],
+        [
+          0.1875,
+          0.4475,
+          0.365
+        ],
+        [
+          0.118,
+          0.1875,
+          0.6945
+        ]
+      ],
+      "pi": [
+        0.7,
+        0.2,
+        0.1
+      ]
+    },
+    {
+      "scenario": "C",
+      "name": "Intervención temprana",
+      "description": "Mayor probabilidad de recuperación de R a C y menor tránsito directo de R a I, como efecto de un programa de acompañamiento.",
+      "changes": "A (recuperación R→C = 0.40)",
+      "A": [
+        [
+          0.86,
+          0.11,
+          0.03
+        ],
+        [
+          0.4,
+          0.5,
+          0.1
+        ],
+        [
+          0.08,
+          0.17,
+          0.75
+        ]
+      ],
+      "B": [
+        [
+          0.8,
+          0.17,
+          0.03
+        ],
+        [
+          0.1,
+          0.5,
+          0.4
+        ],
+        [
+          0.02,
+          0.1,
+          0.88
+        ]
+      ],
+      "pi": [
+        0.7,
+        0.2,
+        0.1
+      ]
+    },
+    {
+      "scenario": "D",
+      "name": "Riesgo inicial alto",
+      "description": "Cohorte que inicia el semestre con mayor proporción de estudiantes en riesgo; la dinámica y las emisiones son las de A.",
+      "changes": "π (riesgo inicial 0.40)",
+      "A": [
+        [
+          0.82,
+          0.15,
+          0.03
+        ],
+        [
+          0.22,
+          0.63,
+          0.15
+        ],
+        [
+          0.04,
+          0.11,
+          0.85
+        ]
+      ],
+      "B": [
+        [
+          0.8,
+          0.17,
+          0.03
+        ],
+        [
+          0.1,
+          0.5,
+          0.4
+        ],
+        [
+          0.02,
+          0.1,
+          0.88
+        ]
+      ],
+      "pi": [
+        0.45,
+        0.4,
+        0.15
+      ]
+    }
+  ]
+}

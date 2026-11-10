@@ -1,0 +1,68 @@
+{
+  "master_seed": 2025,
+  "n_reps_main": 50,
+  "n_students_main": 1000,
+  "T_weeks": 16,
+  "scenarios": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "sensitivity": {
+    "deltas": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "p_stay": [
+      0.6,
+      0.75,
+      0.9
+    ],
+    "reps": 15,
+    "students": 500,
+    "seed": 4242
+  },
+  "oat": {
+    "factors": [
+      0.8,
+      1.2
+    ],
+    "reps": 20,
+    "seed": 555
+  },
+  "n_replications_main": 200,
+  "n_estimation": 40,
+  "n_sensitivity_cells": 15,
+  "n_oat_rows": 14,
+  "examples": "raw\\example_trajectories.npz",
+  "environment": {
+    "timestamp": "2026-11-09T23:27:47-05:00",
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "code_sha256": {
+    "src/hmm_riesgo/__init__.py": "c3cc25e24b10df0bb800b68404ec56bfa30a836074a48134ec4a8d599c6f86bf",
+    "src/hmm_riesgo/analysis.py": "bc7158274c9c677c677af1a8b79ca32476fe2f6f2e05a572d5f68d5e9eb81196",
+    "src/hmm_riesgo/experiments.py": "dd7a414e7aa48a4c4aae9b4fa2686818b4aa87d729ebac3ca1f0ce054839b540",
+    "src/hmm_riesgo/figures.py": "0902c774645a399dc3a842fed85bd7077847d75f8c7e2a79798aa55c0b3f54dd",
+    "src/hmm_riesgo/hmm.py": "222625270cd929e5142cae90cabeea17be670e7457f3c2211604d6be87cdccf2",
+    "src/hmm_riesgo/metrics.py": "265553f34e51796f9dc864fc9267bf1f1998cc7ed3a759d291dc63ae3f950ff6",
+    "src/hmm_riesgo/paper_content.py": "565039bdde5000220a52ff5547e54320184d3c5b636c2cd0b782030d54caffe1",
+    "src/hmm_riesgo/paper_refs.py": "736b6fe2baf7dd2a675ed87f3c79f1cf2bb96916ce89674227814bee29d2d21c",
+    "src/hmm_riesgo/paper_tables.py": "3ec28c6dee4403457cc47e7a1ddb94021bd85affdb6d6ce17ce8f53e7f795129",
+    "src/hmm_riesgo/scenarios.py": "4801bdc4b39dbd473159bb92ff38a50e9e2198adb6839b2cb05eea881f9f914d",
+    "src/hmm_riesgo/simulation.py": "f2b75709715a3c88541f47682835d483bdf7e7b57c629fea8457a893bca56981",
+    "run_all.py": "e1e395de20d93142560ee86919171582724accb97168f082c36a7d76eacc2d73",
+    "tests/test_hmm.py": "0817bf6b007dbf7da57b0a837a5b9c8bb2f63211d0eb493bd44a29e4b86aff9d"
+  },
+  "runtime_seconds": 60.31
+}

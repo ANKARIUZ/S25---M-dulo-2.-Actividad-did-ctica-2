@@ -1,0 +1,42 @@
+{
+  "master_seed": 2025,
+  "n_reps_main": 50,
+  "n_students_main": 1000,
+  "T_weeks": 16,
+  "scenarios": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "sensitivity": {
+    "deltas": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "p_stay": [
+      0.6,
+      0.75,
+      0.9
+    ],
+    "reps": 15,
+    "students": 500,
+    "seed": 4242
+  },
+  "oat": {
+    "factors": [
+      0.8,
+      1.2
+    ],
+    "reps": 20,
+    "seed": 555
+  },
+  "n_replications_main": 200,
+  "n_estimation": 40,
+  "n_sensitivity_cells": 15,
+  "n_oat_rows": 14,
+  "examples": "raw\\example_trajectories.npz"
+}
